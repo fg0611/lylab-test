@@ -1,0 +1,34 @@
+<p>clients works!</p>
+
+
+<table class="table table-striped">
+    <thead>
+
+        <tr>
+
+            <th>Id</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Birthday</th>
+
+
+        </tr>
+
+
+    </thead>
+
+    <tbody>
+
+        <tr *ngFor='let cl of clients'>
+            <td>{{cl.id}}</td>
+            <td>{{cl.name}}</td>
+            <td>{{cl.gender}}</td>
+            <td>{{cl.birthday}}</td>
+
+
+        </tr>
+
+
+
+    </tbody>
+</table>
