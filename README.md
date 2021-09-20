@@ -7,7 +7,7 @@ Deny Client's Credits.
 
 Credits inside the DB must be below $50,000 in order to be handled by the employee.
 
-The current Credit model structure is:
+The current Credit model schema/table is:
 
 ```
  id | client_id |  amount  | sbs_debt  | ai_index | sentinel_index | status
@@ -20,7 +20,7 @@ Where:
 -ai_index is an AI index from our internal Algorithm [1-10]
 -sentinel_index comes from the Sentinel Risk Center which can be GOOD, REGULAR or BAD.
 
-Also Client model:
+Also Client shcema/table:
 
  id | name | gender |  birthday
 ----+------+--------+------------
